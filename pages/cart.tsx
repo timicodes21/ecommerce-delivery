@@ -1,14 +1,14 @@
 import { Text } from "@chakra-ui/react";
 import type { NextPage } from "next";
 
-const Home: NextPage = () => {
+const Cart: NextPage = () => {
   return (
     <div>
       <Text fontSize={32} fontWeight={700} color="teal">
-        Hello there
+        Cart
       </Text>
     </div>
   );
 };
 
-export default Home;
+export default Cart;
